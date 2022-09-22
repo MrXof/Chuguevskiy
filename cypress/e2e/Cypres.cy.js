@@ -68,10 +68,10 @@ beforeEach(()=>{
 });
 
 
-  it('input',()=>{
+  it('SingUp',()=>{
    // cy.visit('https://www.beaxy.com/register');
     cy.get('#popUp-register-email').type('verulanedanill@gmail.com');
-    cy.get('#_pass').type('Sqrtywz123>');
+    cy.get('#_pass').type('Sqrtywz123$$');
     cy.get('[name="phoneNumber"]').type('0970951282');
       
 
