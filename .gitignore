@@ -1,0 +1,9 @@
+#node_modules
+/node_modules
+
+#results
+results
+#resours
+videos
+screenshots
+__diff_output__

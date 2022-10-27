@@ -1,0 +1,10 @@
+describe('Test',()=>{
+    it('TEST1',()=>{
+        cy.viewport(1600,900);
+        cy.visit('https://www.beaxy.com/');
+        cy.wait(9000);
+        cy.get('.home-table').invoke('remove');
+        cy.get('.custom-widget').invoke('remove');
+        cy.matchImageSnapshot();
+    });
+});
